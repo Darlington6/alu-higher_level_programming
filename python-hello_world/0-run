@@ -1,4 +1,3 @@
 #!/bin/bash
-export
 PYFILE=o-run.py
 python "$PYFILE"
