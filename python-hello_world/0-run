@@ -1,2 +1,2 @@
 #!/bin/bash
-$PYFILE = "o-run.py"
+export PYFILE = o-run.py
