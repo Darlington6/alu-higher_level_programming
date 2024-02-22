@@ -1,1 +1,1 @@
-# alu-higher_level_programming
+This readme contains some code on programming and database
