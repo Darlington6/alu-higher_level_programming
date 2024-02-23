@@ -1,6 +1,3 @@
 #!/usr/bin/python3
-alphabet = ""
-for char_code in range(ord('a'), ord('z') + 1):
-    alphabet += chr(char_code)
-print(alphabet, end="")
-
+for i in range(97, 123):
+    print("{}".format(chr(i)), end="")
