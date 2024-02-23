@@ -2,5 +2,5 @@
 alphabet = ""
 for char_code in range(ord('a'), ord('z') + 1):
     alphabet += chr(char_code)
-print(alphabet)
+print(alphabet, end="")
 
