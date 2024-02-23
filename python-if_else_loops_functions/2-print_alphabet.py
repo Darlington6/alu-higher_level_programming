@@ -1,3 +1,6 @@
 #!/usr/bin/python3
-for char in range(ord('a'), ord('z') + 1):
-    print(chr(char_code))
+alphabet = ""
+for char_code in range(ord('a'), ord('z') + 1):
+    alphabet += chr(char_code)
+print(alphabet)
+
