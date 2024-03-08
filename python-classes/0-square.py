@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-"""Create a class called 'sqaure' which is empty"""
+"""Create an empty class called 'Square' """
 
-class Sqaure:
-    '''creates an empty square'''
+class Square:
+    ''' creates an empty square'''
     pass
