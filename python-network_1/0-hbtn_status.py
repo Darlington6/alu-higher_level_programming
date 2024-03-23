@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# This module is documented.
+"""This module is documented."""
 
 import urllib.request
 
