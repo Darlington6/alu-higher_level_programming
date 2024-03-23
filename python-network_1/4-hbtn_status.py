@@ -1,12 +1,9 @@
 #!/usr/bin/python3
-"""Documented now"""
-
+"""Python script that fetches data"""
 import requests
 
-if __name__ == '__main__':
-    url = "https://intranet.hbtn.io/status"
-    r = requests.get(url)
-    text = r.text
+if __name__ == "__main__":
+    res = requests.get("https://intranet.hbtn.io/status")
     print("Body response:")
-    print("\t- type: {}".format(type(text)))
-    print("\t- content: {}".format(text))
+    print("\t- type: {}".format(type(res.text)))
+    print("\t- content: {}".format(res.text))
