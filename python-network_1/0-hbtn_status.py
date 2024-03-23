@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-"""This module is documented."""
-
+"""A script that
+fetches https://intranet.hbtn.io/status.
+"""
 
 
 if __name__ == '__main__':
