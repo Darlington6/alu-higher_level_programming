@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This is documented now."""
+"""Documented now"""
 import requests
 
 if __name__ == '__main__':
