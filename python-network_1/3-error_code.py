@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-"""This module is documented."""
+"""This is documented."""
 
 import urllib.request
 import urllib.error
 import sys
 
-if __name__ = '__main__':
-    """This is documented."""
+if __name__ == '__main__':
+    """"Documented"""
     url = sys.argv[1]
     req = urllib.request.Request(url)
     try:
