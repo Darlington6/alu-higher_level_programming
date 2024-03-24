@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-"""Python script that fetches data"""
-import requests
+"""Python script that fetches data."""
 
+
+import requests
 if __name__ == "__main__":
-    res = requests.get("https://intranet.hbtn.io/status")
+    requ = requests.get('https://intranet.hbtn.io/status')
     print("Body response:")
-    print("\t- type: {}".format(type(res.text)))
-    print("\t- content: {}".format(res.text))
+    print("\t- type: {}".format(type(requ.text)))
+    print("\t- content: {}".format(requ.text))
