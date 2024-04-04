@@ -1,15 +1,17 @@
 #!/usr/bin/python3
-'''Using the SQL Alchemy in defining a database class'''
+'''
+    Using the SQL Alchemy in defining a database
+    states Database table
+'''
 
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import Column, Integer, String, ForeignKey
+from sqlalchemy import Column, Integer, String
 Base = declarative_base()
 
 
-class City(Base):
+class State(Base):
     '''A class defination of a table in the sql'''
-    __tablename__ = 'cities'
+    __tablename__ = 'states'
 
     id = Column(Integer, primary_key=True, autoincrement=True, nullable=False)
     name = Column(String(128), nullable=False)
-    state_id = Column(Integer, ForeignKey('states.id'), nullable=False)
